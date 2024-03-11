@@ -1,0 +1,339 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@font-face{
+    font-family:'Roboto , sans-serif';
+    src: url('Roboto');
+}    
+header{
+    width: 100%;
+    height: 100%;
+}
+.container{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    box-sizing: border-box;
+}
+.logo img{
+    margin-top: 60px;
+    padding-left: 120px;
+}
+.first{
+    text-align: justify;
+}
+.first a{
+    text-decoration: none;
+    color: black;
+    font-size:  12px;
+    margin-left: 40px;
+    text-align: right;
+    font-family: 'Roboto , sans-serif';
+}
+.container .first{
+    margin: 80px 100px 30px 550px;
+    display: flex;
+    opacity: 0.8;
+}
+.second button{
+    background-color: #FF0000;
+    height: 40px;
+    font-weight: normal;
+    border-radius: 8px;
+    width: 90px;
+    font-size: 12px;
+    margin: 50px 0px 5px -50px;
+    border: none;
+    opacity: 0.6;
+}
+.second a{
+    text-decoration: none;
+    color: wheat;     
+}
+.icon{
+    display: none;
+
+}
+@media screen and (min-width:0px) and (max-width:480px) {
+    .icon{
+        display: block;
+    }
+    .first a{
+        display: none;
+    }
+    .second button{
+
+        display: none;
+    }
+    .third{   
+    }
+    
+}
+.third{
+    width: 100%;
+    margin-top: 150px;
+    margin-left: 120px;
+    font-size: 20px;
+
+   
+}
+.third p{
+    font-family:  'Roboto , sans-serif';
+    font-size: 55px;
+    line-height: 1;
+    font-style: normal;
+
+}
+.model img{
+    margin-left: 700px;
+    margin-top: -400px;
+    /* border: 10px solid #313131;
+    border-radius: 20px; */
+    /* border-radius: 20px; */
+    /* border: solid 20px black; */
+    width: 35%;
+    
+    /* border-style: unset; */
+    /* box-sizing: border-box;
+    border-width: 0;
+    border-style: solid;
+    border-color: black;
+    border-radius: 20px; */
+}
+.model{
+    border-top-left-radius: 9999px;
+    border-bottom-left-radius: 9999px;
+    color: #0000FF;
+    z-index: 0.5; 
+}
+.box{
+    border-left: 20px;
+}
+.box1 {
+    background-color: var(--color-blue);
+    /* border: 0px solid rgb(5, 5, 14); */
+    /* border-radius: 160px 0px 0px 160px;
+    height: 320px; */
+    width: 52%;
+    /* position: absolute;
+    top: 200px;
+    right: 0%; */
+}
+.third .ab p{
+     font-size: 21px;
+    font-family: 'Roboto , sans-serif';
+    line-height: 26px;
+    opacity: 0.7;
+}
+.b1 button {
+    background-color: #0000FF;
+    color: white;
+    height: 47px;
+    font-weight: normal;
+    border-radius: 8px;
+    width: 170px;
+    font-size: 16px;
+    margin-left: 150px;
+    border: none;
+    opacity: 0.7;
+}
+.b1 button:hover{
+    background-color: white;
+    color: black;
+    height: 46px;
+    font-weight: normal;
+    border-radius: 8px;
+    width: 170px;
+    font-size: 16px;
+    border: none;
+    opacity: 1;
+}
+.b2{
+    display: flex;
+    margin-left: 350px;
+    margin-top: -65px;
+}
+.b2 button{
+    background-color: white;
+    color: black;
+    height: 47px;
+    font-weight: normal;
+    border: none;
+    width: 170px;
+    font-size: 16px;
+}
+.b2 button:hover{
+    background-color: #0000FF;
+    color: white;
+    height: 46px;
+    font-weight: normal;
+    border-radius: 8px;
+    width: 170px;
+    font-size: 16px;
+    border: none;
+    opacity: 0.7;
+}
+.content{
+    width: 100%;
+    height: 1000%;
+    background-color: whitesmoke;
+} 
+.fourth{
+   
+    text-align: center;
+}
+.fourth h1{
+    font-family: 'Roboto , sans-serif';
+    font-size: 25px;
+    font-weight: inherit;
+}
+.fourth p{
+    font-family: 'Roboto , sans-serif';
+    font-size: 19px;
+    opacity: 0.5;
+}
+.fourth img{
+    margin-right: 600px;
+    margin-top: 80px;
+    width: 35%;
+}
+.fifth{
+    margin-left: 700px;
+    margin-top: -250px;
+}
+.fifth h1{
+    font-family: 'Roboto , sans-serif';
+    font-size: 30px;
+    font-weight: inherit;
+}
+.fifth p{
+    font-family: 'Roboto , sans-serif';
+    font-size: 19px;
+    opacity: 0.5;
+}
+.fifth button{
+    background-color: #0000FF;
+    color: white;
+    height: 50px;
+    font-weight: normal;
+    border-radius: 8px;
+    width: 120px;
+    font-size: 16px;
+    border: none;
+    opacity: 0.6;
+}
+.fifth button:hover{
+    background-color: white;
+    color: black;
+    height: 50px;
+    font-weight: normal;
+    border-radius: 8px;
+    width: 120px;
+    font-size: 16px;
+    border: none;
+    opacity: 1;
+}
+.sixth{
+    margin-top: 300px;
+    margin-left: 140px;
+}
+
+.sixth h1{
+    font-family: 'Roboto , sans-serif';
+    font-size: 30px;
+    font-weight: inherit;
+    margin-top: 100px;
+    
+}
+.sixth p{
+    font-family: 'Roboto , sans-serif';
+    font-size: 20px;
+    opacity: 0.5;
+}
+.sixth button{
+    background-color: #0000FF;
+    color: white;
+    height: 50px;
+    font-weight: normal;
+    border-radius: 8px;
+    width: 120px;
+    font-size: 16px;
+    border: none;
+    opacity: 0.6;
+}
+.sixth button:hover{
+    background-color: white;
+    color: black;
+    height: 50px;
+    font-weight: normal;
+    border-radius: 8px;
+    width: 120px;
+    font-size: 16px;
+    border: none;
+    opacity: 1;
+}
+.sixth .ab img{
+    margin-left: 600px;
+    margin-top: -250px;
+    width: 35%;
+}
+.seventh{
+    margin-left: 700px;
+    margin-top: 250px;
+}
+.seventh h1{
+    font-family: 'Roboto , sans-serif';
+    font-size: 30px;
+    font-weight: inherit;
+    margin-top: 100px;
+}
+.seventh p{
+    font-family: 'Roboto , sans-serif';
+    font-size: 20px;
+    opacity: 0.5;
+}
+.seventh button{
+    background-color: #0000FF;
+    color: white;
+    height: 50px;
+    font-weight: normal;
+    border-radius: 8px;
+    width: 120px;
+    font-size: 16px;
+    border: none;
+    opacity: 0.6;
+}
+.seventh button:hover{
+    background-color: white;
+    color: black;
+    height: 50px;
+    font-weight: normal;
+    border-radius: 8px;
+    width: 120px;
+    font-size: 16px;
+    border: none;
+    opacity: 1;
+}
+.senevth img{
+    margin-right: 600px;
+   
+  
+}
+.eigth{
+    margin-bottom: -100px;
+    /* align-content: center; */
+}
+.eight h1{
+    font-family: 'Roboto , sans-serif';
+    font-size: 30px;
+    font-weight: inherit;
+}
+.eigth p{
+    font-family: 'Roboto , sans-serif';
+    font-size: 60px;
+    /* opacity: 0.5; */
+
+}
